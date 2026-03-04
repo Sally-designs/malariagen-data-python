@@ -42,22 +42,14 @@ You'll need:
 4. **Install the project and its dependencies**
 
    ```bash
-   poetry install
-   ```
-   > **Note:** If you encounter `ModuleNotFoundError: No module named 'pytest_cases'`
-   > when running tests, install it explicitly:
-   > ```bash
-   > poetry run pip install pytest-cases
-   > ```
+   poetry install --extras dev
+```
+   > Note: Use `--extras dev` to install all development dependencies,
+   > including test requirements such as `pytest-cases`. Without this flag,
+   > running tests on a fresh clone may result in a 
+   > `ModuleNotFoundError: No module named 'pytest_cases'`.
 
-   **Recommended**: Use `poetry run` to run commands inside the virtual environment:
-
-   ```bash
-   poetry run pytest
-   poetry run python script.py
-   ```
-
-   **Optional**: If you prefer an interactive shell session, install the shell plugin first:
+   Optional: If you prefer an interactive shell session, install the shell plugin first:
 
    ```bash
    poetry self add poetry-plugin-shell
