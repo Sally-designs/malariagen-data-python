@@ -155,6 +155,10 @@ ruff format .
 - **Fast tests**: Unit tests should use simulated data when possible (see `tests/anoph/`)
 - **Integration tests**: Tests requiring GCS data access are slower and run separately
 
+  > **Tip:** If you are contributing to the NL interface or any new feature,
+  > add corresponding unit tests in `tests/anoph/` using simulated data
+  > to keep tests fast and independent of GCS access.
+
 Run type checking with:
 
 ```bash
