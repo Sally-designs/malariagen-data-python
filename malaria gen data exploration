@@ -433,11 +433,11 @@
         "!pip install malariagen-data -q"
       ],
       "metadata": {
-        "id": "MRGyFc_rpVKc",
-        "outputId": "8bbf7b49-e28b-4e3e-ee0c-bd7f15faf18a",
         "colab": {
           "base_uri": "https://localhost:8080/"
-        }
+        },
+        "id": "MRGyFc_rpVKc",
+        "outputId": "8bbf7b49-e28b-4e3e-ee0c-bd7f15faf18a"
       },
       "execution_count": 6,
       "outputs": [
@@ -485,11 +485,11 @@
         "print(\"✅ Connected!\")"
       ],
       "metadata": {
-        "id": "h5N7d7DRoret",
-        "outputId": "19bcf67f-4b75-4697-84d7-f8c22e15c8b1",
         "colab": {
           "base_uri": "https://localhost:8080/"
-        }
+        },
+        "id": "h5N7d7DRoret",
+        "outputId": "19bcf67f-4b75-4697-84d7-f8c22e15c8b1"
       },
       "execution_count": 7,
       "outputs": [
@@ -530,11 +530,11 @@
         "            print(f\"First line: {doc.splitlines()[0]}\")"
       ],
       "metadata": {
-        "id": "HixfUZgBokcv",
-        "outputId": "37b37713-7382-4a4f-f863-fc9eb870ab5a",
         "colab": {
           "base_uri": "https://localhost:8080/"
-        }
+        },
+        "id": "HixfUZgBokcv",
+        "outputId": "37b37713-7382-4a4f-f863-fc9eb870ab5a"
       },
       "execution_count": 8,
       "outputs": [
@@ -608,11 +608,11 @@
         "    print(f\"  - {name}\")"
       ],
       "metadata": {
-        "id": "LBRFz7DEqcrf",
-        "outputId": "5243fd52-92cf-4d94-cf37-61b34ad7da08",
         "colab": {
           "base_uri": "https://localhost:8080/"
-        }
+        },
+        "id": "LBRFz7DEqcrf",
+        "outputId": "5243fd52-92cf-4d94-cf37-61b34ad7da08"
       },
       "execution_count": 9,
       "outputs": [
@@ -644,12 +644,12 @@
         "df_sets.head(20)"
       ],
       "metadata": {
-        "id": "8s7R4gINrLgo",
-        "outputId": "49cb5542-c332-45d8-a63d-67fdea156912",
         "colab": {
           "base_uri": "https://localhost:8080/",
           "height": 1000
-        }
+        },
+        "id": "8s7R4gINrLgo",
+        "outputId": "49cb5542-c332-45d8-a63d-67fdea156912"
       },
       "execution_count": 10,
       "outputs": [
@@ -1134,11 +1134,11 @@
         "print(df_all.groupby(\"country\")[\"sample_id\"].count().sort_values(ascending=False))"
       ],
       "metadata": {
-        "id": "SSJ-8TBmrb0N",
-        "outputId": "0fa94172-5a30-456a-f3f1-73ce08849ccd",
         "colab": {
           "base_uri": "https://localhost:8080/"
-        }
+        },
+        "id": "SSJ-8TBmrb0N",
+        "outputId": "0fa94172-5a30-456a-f3f1-73ce08849ccd"
       },
       "execution_count": 11,
       "outputs": [
@@ -1183,11 +1183,11 @@
         "    print(f\"  - {col}\")"
       ],
       "metadata": {
-        "id": "GXeHMC40rsMs",
-        "outputId": "1307a132-5106-485a-8d0e-b7aafd7a61cd",
         "colab": {
           "base_uri": "https://localhost:8080/"
-        }
+        },
+        "id": "GXeHMC40rsMs",
+        "outputId": "1307a132-5106-485a-8d0e-b7aafd7a61cd"
       },
       "execution_count": 12,
       "outputs": [
@@ -1271,11 +1271,11 @@
         "print(f\"Latest: {df_all['year'].max()}\")"
       ],
       "metadata": {
-        "id": "-roeDaKPr0jX",
-        "outputId": "cd2f0326-b26b-40e1-ce2c-04619f87db80",
         "colab": {
           "base_uri": "https://localhost:8080/"
-        }
+        },
+        "id": "-roeDaKPr0jX",
+        "outputId": "cd2f0326-b26b-40e1-ce2c-04619f87db80"
       },
       "execution_count": 13,
       "outputs": [
@@ -1373,11 +1373,11 @@
         "print(df_all[[\"location\", \"country\", \"latitude\", \"longitude\"]].drop_duplicates().head(10))"
       ],
       "metadata": {
-        "id": "Ihp49VT_sAh9",
-        "outputId": "c4900435-f8ec-4b26-cc32-f0753015c407",
         "colab": {
           "base_uri": "https://localhost:8080/"
-        }
+        },
+        "id": "Ihp49VT_sAh9",
+        "outputId": "c4900435-f8ec-4b26-cc32-f0753015c407"
       },
       "execution_count": 14,
       "outputs": [
@@ -1420,11 +1420,11 @@
         "print(bad_year[\"sample_set\"].value_counts())"
       ],
       "metadata": {
-        "id": "8zQ2zLkCsPA4",
-        "outputId": "5a4a9ccb-efc4-482a-deef-593497ad8bd7",
         "colab": {
           "base_uri": "https://localhost:8080/"
-        }
+        },
+        "id": "8zQ2zLkCsPA4",
+        "outputId": "5a4a9ccb-efc4-482a-deef-593497ad8bd7"
       },
       "execution_count": 15,
       "outputs": [
@@ -1465,11 +1465,11 @@
         "print(df_all[[\"location\", \"country\", \"latitude\", \"longitude\"]].drop_duplicates().head(10))"
       ],
       "metadata": {
-        "id": "bQjXmN1FsfJg",
-        "outputId": "6a0a6107-1167-4e00-b6dc-0232578f401f",
         "colab": {
           "base_uri": "https://localhost:8080/"
-        }
+        },
+        "id": "bQjXmN1FsfJg",
+        "outputId": "6a0a6107-1167-4e00-b6dc-0232578f401f"
       },
       "execution_count": 16,
       "outputs": [
@@ -1509,11 +1509,11 @@
         "print(sorted(df_all[\"month\"].unique()))"
       ],
       "metadata": {
-        "id": "bFCLTwZPsshi",
-        "outputId": "e9cd4cb4-3ce0-40f8-ff21-edce20d98958",
         "colab": {
           "base_uri": "https://localhost:8080/"
-        }
+        },
+        "id": "bFCLTwZPsshi",
+        "outputId": "e9cd4cb4-3ce0-40f8-ff21-edce20d98958"
       },
       "execution_count": 17,
       "outputs": [
@@ -1543,11 +1543,11 @@
         "print(df_count)"
       ],
       "metadata": {
-        "id": "nVf4Jpgps27K",
-        "outputId": "71f49cdd-4395-4e6d-d915-9c78c35fdec5",
         "colab": {
           "base_uri": "https://localhost:8080/"
-        }
+        },
+        "id": "nVf4Jpgps27K",
+        "outputId": "71f49cdd-4395-4e6d-d915-9c78c35fdec5"
       },
       "execution_count": 18,
       "outputs": [
@@ -1628,12 +1628,12 @@
         "plt.show()"
       ],
       "metadata": {
-        "id": "Lh4aO5pTtXTP",
-        "outputId": "fc170154-6b4e-4be2-f5a4-4d599b1d926c",
         "colab": {
           "base_uri": "https://localhost:8080/",
           "height": 343
-        }
+        },
+        "id": "Lh4aO5pTtXTP",
+        "outputId": "fc170154-6b4e-4be2-f5a4-4d599b1d926c"
       },
       "execution_count": 19,
       "outputs": [
@@ -1661,12 +1661,12 @@
         ")"
       ],
       "metadata": {
-        "id": "0AGUvHgfv1XZ",
-        "outputId": "dd786fa1-1f77-4eda-ff62-04c0da23b714",
         "colab": {
           "base_uri": "https://localhost:8080/",
           "height": 356
-        }
+        },
+        "id": "0AGUvHgfv1XZ",
+        "outputId": "dd786fa1-1f77-4eda-ff62-04c0da23b714"
       },
       "execution_count": 20,
       "outputs": [
@@ -1692,11 +1692,11 @@
         "help(ag3.plot_samples_interactive_map)"
       ],
       "metadata": {
-        "id": "Q3XZ8lY-wFIm",
-        "outputId": "820289f2-2a28-4b71-a207-f01f00b85d39",
         "colab": {
           "base_uri": "https://localhost:8080/"
-        }
+        },
+        "id": "Q3XZ8lY-wFIm",
+        "outputId": "820289f2-2a28-4b71-a207-f01f00b85d39"
       },
       "execution_count": 21,
       "outputs": [
@@ -1758,8 +1758,6 @@
         ")"
       ],
       "metadata": {
-        "id": "XPrW0uWEwf5q",
-        "outputId": "55448ae3-cd5a-47f2-ec09-288dd3836658",
         "colab": {
           "base_uri": "https://localhost:8080/",
           "height": 541,
@@ -1900,7 +1898,9 @@
             "e34d41d22aec48ed96caa6a013f26348",
             "a8beaf7b20324d5eb2f5f6009834b6a5"
           ]
-        }
+        },
+        "id": "XPrW0uWEwf5q",
+        "outputId": "55448ae3-cd5a-47f2-ec09-288dd3836658"
       },
       "execution_count": 23,
       "outputs": [
@@ -1959,11 +1959,11 @@
         ""
       ],
       "metadata": {
-        "id": "1zxoLm0Pw96h",
-        "outputId": "93169df5-88d4-4495-da43-8ee46b2d78e9",
         "colab": {
           "base_uri": "https://localhost:8080/"
-        }
+        },
+        "id": "1zxoLm0Pw96h",
+        "outputId": "93169df5-88d4-4495-da43-8ee46b2d78e9"
       },
       "execution_count": 24,
       "outputs": [
@@ -1987,11 +1987,11 @@
         "print(source)"
       ],
       "metadata": {
-        "id": "PgOoSumcxV9P",
-        "outputId": "8c154a91-ebfa-41c2-e5cb-5b9ccc5a84ed",
         "colab": {
           "base_uri": "https://localhost:8080/"
-        }
+        },
+        "id": "PgOoSumcxV9P",
+        "outputId": "8c154a91-ebfa-41c2-e5cb-5b9ccc5a84ed"
       },
       "execution_count": 25,
       "outputs": [
